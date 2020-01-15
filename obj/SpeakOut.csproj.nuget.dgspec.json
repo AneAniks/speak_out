@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\Speak Out\\SpeakOut\\SpeakOut.csproj": {}
+    "C:\\Users\\dzape\\Desktop\\Speak Out\\SpeakOut.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\Speak Out\\SpeakOut\\SpeakOut.csproj": {
+    "C:\\Users\\dzape\\Desktop\\Speak Out\\SpeakOut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Speak Out\\SpeakOut\\SpeakOut.csproj",
+        "projectUniqueName": "C:\\Users\\dzape\\Desktop\\Speak Out\\SpeakOut.csproj",
         "projectName": "SpeakOut",
-        "projectPath": "E:\\Projects\\Speak Out\\SpeakOut\\SpeakOut.csproj",
-        "packagesPath": "C:\\Users\\pniko\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Speak Out\\SpeakOut\\obj\\",
+        "projectPath": "C:\\Users\\dzape\\Desktop\\Speak Out\\SpeakOut.csproj",
+        "packagesPath": "C:\\Users\\dzape\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dzape\\Desktop\\Speak Out\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dzape\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,30 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
