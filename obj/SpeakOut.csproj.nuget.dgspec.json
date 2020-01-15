@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dzape\\Desktop\\Speak Out\\SpeakOut.csproj": {}
+    "C:\\Users\\AneAnix\\Documents\\speak_out\\SpeakOut.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dzape\\Desktop\\Speak Out\\SpeakOut.csproj": {
+    "C:\\Users\\AneAnix\\Documents\\speak_out\\SpeakOut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dzape\\Desktop\\Speak Out\\SpeakOut.csproj",
+        "projectUniqueName": "C:\\Users\\AneAnix\\Documents\\speak_out\\SpeakOut.csproj",
         "projectName": "SpeakOut",
-        "projectPath": "C:\\Users\\dzape\\Desktop\\Speak Out\\SpeakOut.csproj",
-        "packagesPath": "C:\\Users\\dzape\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dzape\\Desktop\\Speak Out\\obj\\",
+        "projectPath": "C:\\Users\\AneAnix\\Documents\\speak_out\\SpeakOut.csproj",
+        "packagesPath": "C:\\Users\\AneAnix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AneAnix\\Documents\\speak_out\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dzape\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\AneAnix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -46,6 +50,10 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -71,6 +79,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -79,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
